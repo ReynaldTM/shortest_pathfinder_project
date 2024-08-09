@@ -16,7 +16,7 @@ maze = [
 ]
 
 
-def print_maze(maze, stdscr, path=[]): # prints maze
+def print_maze(maze, stdscr, path=[]):  # prints maze
     if path is None:
         path = []
     RED = curses.color_pair(1)
@@ -51,7 +51,7 @@ def find_path(maze, stdscr):
     visited = set()
 
     while not q.empty():
-        current_pos, path = q.get() # get first in queue row, col
+        current_pos, path = q.get()  # get first in queue row, col
         row, col = current_pos
 
         stdscr.clear()  # clear terminal
@@ -59,24 +59,24 @@ def find_path(maze, stdscr):
         time.sleep(0.2)
         stdscr.refresh()  # refresh screen
 
-        if maze[row][col] == end: # check if at end
+        if maze[row][col] == end:  # check if at end
             return path
 
-        neighbors = find_neighbors(maze, row, col) # checking all neighbors
+        neighbors = find_neighbors(maze, row, col)  # checking all neighbors
         for neighbor in neighbors:
             if neighbor in visited:
                 continue
 
             r, c = neighbor
-            if maze[r][c] == "#": # checking obstacle
+            if maze[r][c] == "#":  # checking obstacle
                 continue
 
-            new_path = path + [neighbor] # adding to path
-            q.put((neighbor, new_path)) # adding to queue
+            new_path = path + [neighbor]  # adding to path
+            q.put((neighbor, new_path))  # adding to queue
             visited.add(neighbor)
 
 
-def find_neighbors(maze, row, col): # gives valid neighbors in maze
+def find_neighbors(maze, row, col):  # gives valid neighbors in maze
     neightbors = []
 
     if row > 0:  # UP
