@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d32caf8a-847c-420a-bcf0-f3df754c20cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shortest_pathfinder_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="d32caf8a-847c-420a-bcf0-f3df754c20cb" name="Changes" comment="Breadth pathfinder&#10;Maze">
+      <change afterPath="$PROJECT_DIR$/path_finder_project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/path_finder_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,8 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -63,6 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1722998460629</updated>
     </task>
+    <task id="LOCAL-00001" summary="Breadth pathfinder&#10;Maze">
+      <option name="closed" value="true" />
+      <created>1723169588245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723169588245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Breadth pathfinder&#10;Maze" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breadth pathfinder&#10;Maze" />
   </component>
 </project>
