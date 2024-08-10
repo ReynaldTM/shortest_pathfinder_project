@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d32caf8a-847c-420a-bcf0-f3df754c20cb" name="Changes" comment="Breadth pathfinder&#10;Maze">
-      <change afterPath="$PROJECT_DIR$/path_finder_project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/path_finder_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/path_finder_project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -31,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -47,7 +42,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -74,7 +70,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723169588245</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Breadth pathfinder&#10;Maze">
+      <option name="closed" value="true" />
+      <created>1723170654534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723170654534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Breadth pathfinder&#10;Maze">
+      <option name="closed" value="true" />
+      <created>1723170735669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723170735669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
